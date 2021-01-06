@@ -11,7 +11,7 @@ body{
 
 }
 header {
-  height: 100vh;
+  height: 110vh;
   background:linear-gradient(rgba(0, 0, 0, 1.5),rgba(33, 197, 0, 0.23)), url('fixtogo.jpg') left no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -45,6 +45,11 @@ nav ul li {
   display: flex;
   justify-content: center;
   margin: -1vh 0;
+}
+
+.contenedor-titulo img{
+  width: 82%;
+  margin-top: 3vh;
 }
 
 .contenedor-titulo h2{
@@ -107,6 +112,7 @@ nav ul li {
   margin-top: 20px;
 }
   #about img {
+    width: 48%;
     margin: 0vH 10px;
     display: inline-flex;
 }
@@ -128,9 +134,9 @@ nav ul li {
     font-size: 38px;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    /* margin: 20vH 0; */
+    margin: 0vH 0; 
     padding: 246px 0;
-    margin-top: 5vh;
+    
 
 }
  .contenedor-servicios{
@@ -141,7 +147,7 @@ nav ul li {
  }
  .servicio{
    height: 490px;
-   width: 30%;
+   width: 23%;
    padding: 34px 30px 38px 30px;
    border-radius: 17px;
    margin-bottom: 40px;
@@ -173,8 +179,8 @@ nav ul li {
   justify-content: center;
   padding: 112px 0;
   display: flex;
-  
-  margin-bottom: -50px;
+  margin-top: 30vh;
+  margin-bottom: -80px;
   font-size: 38px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -302,35 +308,7 @@ textarea {
   border-radius: 5px;
   margin: -3vh 0;
 }
-/*
-#contacto .contenedor-contacto {
-  margin: 3vH 0;
 
-}*/
-#contacto h10 {
-
-  font-size: 40px;
-  color: #211717;
-}
-.contenedor-contacto{
-  margin: 5vH;
-  text-align: center;
-}
-.contacto-info{
-
-  flex: column;
-  color: #211717;
-  font-size: 20px;
-  margin: 5.5vH 0vW;
-
-}
-.contacto-info img {
-  width: 40px;
-  vertical-align: middle;
-  margin-right: 10px;
-  margin: 1vH;
-
-}
 /*PIE DE PAGINA */
 footer {
  background: #000000;
