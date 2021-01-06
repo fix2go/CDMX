@@ -12,7 +12,7 @@ body{
 }
 header {
   height: 100vh;
-  background:linear-gradient(rgba(0, 0, 0, 1.5),rgba(33, 197, 0, 0.23)), url('IMAGENES/REPARACION-CELULARES-COMPUTADORAS-IZTAPALAPA-2.jpg') left no-repeat;
+  background:linear-gradient(rgba(0, 0, 0, 1.5),rgba(33, 197, 0, 0.23)), url('REPARACION-CELULARES-COMPUTADORAS-IZTAPALAPA-2.jpg') left no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -224,7 +224,7 @@ span {
   padding: 30px 0;
   margin-top: 50px;
   margin-bottom: 4vh;
-  background:linear-gradient(rgba(31, 155, 0, 0.6),rgba(0, 108, 170, 0.507)), url('IMAGENES/fix2go2.jpg') left no-repeat;
+  background:linear-gradient(rgba(31, 155, 0, 0.6),rgba(0, 108, 170, 0.507)), url('fix2go2.jpg') left no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
